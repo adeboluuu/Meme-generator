@@ -62,3 +62,7 @@ main{
     border: 1px solid ;
     text-indent:4px ;
 }
+
+.meme-image{
+    max-width: 100%;
+}
