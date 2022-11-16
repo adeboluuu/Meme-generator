@@ -30,7 +30,12 @@ function Meme() {
             <input className='form-input' type='text'placeholder='Lower text'/>
             <button className='form-button'onClick={getMemeImage}>Get a new meme image 🖼</button>
         </div>
+        <div className='meme'>
         <img src={meme.randomImage} className=' meme-image'/>
+        <h2 className='meme-text-top'>One does not simply</h2>
+        <h2 className='meme-text bottom'>Walk into Morder</h2>
+        </div>
+
     </main>
   )
 }
