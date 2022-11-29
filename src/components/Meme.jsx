@@ -35,7 +35,7 @@ function Meme() {
         <div className='form'>
             <input className='form-input' value={meme.topText} onChange={handleChange} name='topText' type='text' placeholder='Top text'/>
             <input className='form-input' value={meme.bottomText} onChange={handleChange}  name='bottomText' type='text'placeholder='Lower text'/>
-            <button className='form-button'onClick={getMemeImage}>Get a new meme image 🖼</button>
+            <button className='form-button'onClick={getMemeImage}>Get a new image 🖼</button>
         </div>
         <div className='meme'>
         <img src={meme.randomImage} className=' meme-image'/>
